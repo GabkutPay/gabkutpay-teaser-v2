@@ -4,15 +4,10 @@
     {
       "src": "source/package.json",
       "use": "@vercel/static-build",
-      "config": {
-        "distDir": "source/build"
-      }
+      "config": { "distDir": "source/build" }
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/source/index.html"
-    }
+    { "src": "/(.*)", "dest": "/source/$1" }
   ]
 }
