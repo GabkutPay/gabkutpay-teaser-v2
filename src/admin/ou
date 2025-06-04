@@ -1,0 +1,2 @@
+import EmpreintesAdmin from './EmpreintesAdmin';
+<Route path="/admin/empreintes" element={<EmpreintesAdmin />} />

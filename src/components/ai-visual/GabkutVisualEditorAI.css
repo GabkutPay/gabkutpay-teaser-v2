@@ -1,0 +1,13 @@
+/* 🎨 src/components/ai-visual/GabkutVisualEditorAI.css */
+
+.gabkut-editor-panel {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 340px;
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}

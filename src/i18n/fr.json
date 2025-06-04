@@ -1,0 +1,22 @@
+{
+  "titre": "🔐 Gabkut Pay arrive",
+  "slogan": "Le futur de la finance est déjà là. Plus rapide. Plus intelligent. Plus sûr.",
+  "bonus": "🎁 5 $ offerts aux 100 premiers inscrits",
+  "services": "💳 Cartes Visa IA | 🌍 Comptes diaspora | 🏦 Retraits sans agences | 🧠 IA sécurité",
+  "ouverture": "⏳ Ouverture dans :",
+  "form_nom": "Nom complet",
+  "form_email": "Adresse email",
+  "form_tel": "Téléphone WhatsApp",
+  "form_type": "Type de compte",
+  "form_message": "Message (optionnel)",
+  "form_envoyer": "Je réserve mon compte",
+  "footer": "© Gabkut Pay 2025 — Teaser public",
+  "confirmation_success": "✅ Merci ! Votre pré-inscription a été envoyée.",
+  "confirmation_error": "❌ Erreur lors de l’envoi. Veuillez réessayer.",
+  "types": {
+    "standard": "Standard",
+    "pro": "Professionnel",
+    "diaspora": "Diaspora",
+    "vip": "VIP"
+  }
+}
