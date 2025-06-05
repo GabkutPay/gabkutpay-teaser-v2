@@ -1,39 +1,47 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import DashboardUtilisateur from './pages/utilisateur/DashboardUtilisateur';
-import Services from './pages/Services';
-import Formulaires from './pages/Formulaires';
-import Assistance from './pages/Assistance';
-import Contact from './pages/Contact';
-import About from './pages/About';
+import React from "react";
+
+// 📁 Imports depuis src/components/
+import TeaserHero from "./components/TeaserHero";
+import TeaserIntroGabkut from "./components/TeaserIntroGabkut";
+import TeaserForm from "./components/TeaserForm";
+import TeaserPDGMessage from "./components/TeaserPDGMessage";
+import TeaserAvantages from "./components/TeaserAvantages";
+import TeaserTypesComptes from "./components/TeaserTypesComptes";
+import TeaserServices from "./components/TeaserServices";
+import TeaserServicesGabkut from "./components/TeaserServicesGabkut";
+import TeaserPartenairesLogos from "./components/TeaserPartenairesLogos";
+import TeaserFAQ from "./components/TeaserFAQ";
+import TeaserCommentaires from "./components/TeaserCommentaires";
+import TeaserVision from "./components/TeaserVision";
+
+// 📁 Imports depuis src/components/teaser/
+import TeaserCallToAction from "./components/teaser/TeaserCallToAction";
+import TeaserFooterLanding from "./components/teaser/TeaserFooterLanding";
+import TeaserInscriptionRapide from "./components/teaser/TeaserInscriptionRapide";
+import TeaserTemoignages from "./components/teaser/TeaserTemoignages";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={
-          <div className="min-h-screen flex items-center justify-center bg-gray-100 text-center">
-            <div>
-              <h1 className="text-3xl font-bold text-blue-900">Bienvenue sur Gabkut Pay 👑</h1>
-              <p className="text-gray-700 mt-2">Frontend prêt. Intégration du dashboard en cours…</p>
-            </div>
-          </div>
-        } />
-        <Route path="/dashboard" element={<DashboardUtilisateur />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/formulaires" element={<Formulaires />} />
-        <Route path="/assistance" element={<Assistance />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </Router>
+    <div className="App">
+      <TeaserHero />
+      <TeaserIntroGabkut />
+      <TeaserForm />
+      <TeaserPDGMessage />
+      <TeaserAvantages />
+      <TeaserTypesComptes />
+      <TeaserServices />
+      <TeaserServicesGabkut />
+      <TeaserPartenairesLogos />
+      <TeaserFAQ />
+      <TeaserCommentaires />
+      <TeaserVision />
+      <TeaserCallToAction />
+      <TeaserInscriptionRapide />
+      <TeaserTemoignages />
+      <TeaserFooterLanding />
+    </div>
   );
 }
 
 export default App;
+    
