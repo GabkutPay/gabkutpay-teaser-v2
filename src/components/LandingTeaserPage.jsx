@@ -1,4 +1,6 @@
 import React from 'react';
+
+// 📦 Composants dans components/
 import TeaserHero from './TeaserHero';
 import TeaserLandingPage from './TeaserLandingPage';
 import TeaserServices from './TeaserServices';
@@ -14,8 +16,8 @@ const LandingTeaserPage = () => {
   return (
     <div className="font-sans bg-white text-gray-900">
       {/* ✅ Bannière “site en préparation” */}
-      <div className="bg-yellow-300 text-center text-sm py-2 font-semibold text-gray-800 shadow-md">
-        🚧 Le site complet Gabkut Pay est encore en construction. Ce teaser vous présente un aperçu exclusif.
+      <div className="bg-yellow-300 text-center py-2 font-semibold">
+        🚧 Le site complet Gabkut Pay est en préparation…
       </div>
 
       {/* 🎬 Sections teaser */}
